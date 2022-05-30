@@ -11,8 +11,6 @@ int[] array = new int[sizeArray];
 Random arrayRandomValue = new Random();
 int arraySummValue = 0;
 
-
-
 for (int i = 0; i < sizeArray; i++)
 {
     array[i] = arrayRandomValue.Next(-100, 100);
@@ -23,4 +21,3 @@ for (int i = 0; i < sizeArray; i++)
 }
 
 Console.WriteLine($" \n Сумма элементов массива, стоящих на нечётных позициях = {arraySummValue}");
-
